@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { StoreProvider } from 'easy-peasy';
-import store from './store';
+import store from './store/store';
 
 ReactDOM.render(
   <StoreProvider store={store}>
-    <App />
+    <App id={1} />
   </StoreProvider>,
   document.getElementById('root')
 );

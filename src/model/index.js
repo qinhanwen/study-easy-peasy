@@ -1,5 +1,5 @@
-import productsModel from './products-model';
-import basketModel from './basket-model';
+import productsModel from './product';
+import basketModel from './basket';
 
 const storeModel = {
   products: productsModel,
